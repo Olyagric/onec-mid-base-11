@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b7bef0b-10ed-4cc0-aa5a-250029de8cbe">
+  <producedTypes>
+    <objectType typeId="c924ab33-ff6c-44d3-a9cf-a7066a85bb74" valueTypeId="f4bc5eb7-8fe6-43de-b2c6-f632de364238"/>
+    <refType typeId="d32bf6cf-9f63-4d37-959d-79950c59366f" valueTypeId="3a90ebef-2152-4e2c-af39-dadff5d78da8"/>
+    <selectionType typeId="6f666ea8-4128-47aa-9be1-af19952af7ae" valueTypeId="0fd4141e-3928-4e81-a94c-c7712c9818bf"/>
+    <listType typeId="bd53e75d-6fc4-4c97-8798-eb3e2b78e2bd" valueTypeId="ec558c15-3f3b-47b6-b0bb-f04c0490c0ae"/>
+    <managerType typeId="a074dade-462c-4462-a744-9344d864c2b7" valueTypeId="2c4d4684-8bfc-4d7d-837c-9907403855b1"/>
+  </producedTypes>
+  <name>Наг_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Наг_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Наг_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
