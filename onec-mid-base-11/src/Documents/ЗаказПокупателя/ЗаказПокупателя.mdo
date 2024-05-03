@@ -193,22 +193,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="79a96a06-583b-48ef-b245-68c4b5c22f7f">
-    <name>Наг_СогласованнаяСкидка</name>
+  <attributes uuid="f12f1c71-a30e-4948-b046-7119cce323de">
+    <name>Наг_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
-      <value>Согласованная скидка</value>
+      <value>Контактное лицо</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>5</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>CatalogRef.Наг_КонтактныеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>Document.ЗаказПокупателя.Attribute.Контрагент</field>
+    </linkByType>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
